@@ -1,0 +1,3 @@
+//MO007-008.TXT ANA00007 TO ANA00008
+Creance		NFI		nouveau fichier
+Contrainte_Mission_Creance		NWL	Mission (IDMission) et Creance (IDMission)	Nouvelle liaison entre les fichiers Mission (IDMission) et Creance (IDMission)

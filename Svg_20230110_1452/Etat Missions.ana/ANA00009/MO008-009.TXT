@@ -1,0 +1,3 @@
+//MO008-009.TXT ANA00008 TO ANA00009
+Contestation		NFI		nouveau fichier
+Contrainte_Mission_Contestation		NWL	Mission (IDMission) et Contestation (IDMission)	Nouvelle liaison entre les fichiers Mission (IDMission) et Contestation (IDMission)

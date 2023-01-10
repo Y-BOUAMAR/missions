@@ -1,0 +1,183 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_Fiche_Creance
+ major_version : 27
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_Fiche_Creance
+ identifier : 0x23ae18e8375f27b8
+ internal_properties : BwAAAAcAAADgXhZwbUGupTsrDeaboqe1MAT3kDfG3gxmMhZ0PTOAWlj1mq2qBz1T4wgofpdtTKUL9PzVyVqp5yTHS9aBsAz/YPAi4RcP5WFwL+pogmJfebj8MCEtZeU47FO5JQoEHYP9z9yraZvNblFx0pqQQof9m+B5vPzq+w+GmAqLR3kohpO3A+fgaiwdrd+DHAMtccxGRMgw7v3BIfeO5WA6enB4MkIIF3HkaA1Ac0/tU3YJ5H9CvOM6y1bBHUEfLlJmAn/ubsMoKxZVjjY1qd3hT/duhPJgVtdKHXRUsJTH07x5bknR3dz3XOWYaV5bzZlTqSNYMGOsva+86rTvabkmTa/Z5Tab5qBCc4MsqNHq3cio+t0aR1Srp34UEsl4OeNlXxLwPiSsYjdMNlEiOw2dBoxNha8yaqnrneF5bUB0F7L0iBZxMw0vwYfprXulR3/qmsjTD5czlH5tuyrYzGTgHjqJN9iIk++5asJE+gRmqrHyC4BI2LvoI9+yaMv9ASGArKyI7MD/M2cFraRW4LwkHF3zs61zGIzwkoxgwDlrNhyl94Mc5VOOcsHJ2faQs0wVz1FLczFr5SUtn739ZIkM7qI5HstDUGhE7vdwpNhAcX5MJoZDjg4M+FzWR8dIlCoYc15O8U9N33Z9WuUndCwzKYi6GWAeFL9JWPomz39B4rwcu8gpt6kHCiltq/Aw1M4nQTGD6y63EtP0pmyAqxkvDxwt98zYcJaDSv5c1ueE4eFNOd1p
+ properties :
+  width : 302
+  height : 172
+  widthClient : 300
+  heightClient : 140
+ controls :
+  -
+    name : BTN_Valider
+    identifier : 0x23ae18e8376027b8
+    internal_properties : BwAAAAcAAAA3NyADtTcSSgtCOkdv9HHPOuN6vpUaRNiOHc1hoVUw5yiR+yz1ufxvomm+ks9tsu2FeGSs/8zphrzZDLgVnhWSDIG8ey7+zJ7Kuevlk7sUUiJD8SsiMkgIMtbdPN8NIN98lR+U+2i+nij7BU8CbV989GpIqNxKyrvNGMhn7XFe6WjfymtdZ8Mamd5EEmEiuSgX9cUfAJUkvM73aBv/9hURQuX76pala8Kgm2q08v2vq0zOgxi/RBEDZiz+V3MtSRIMaANmlqPebq9jkk5syogLxuJy/aiALZhfQ1nClI4YIDzlvH6IFKvZnfM/bLmVcBUSLzpyeJ9k9KpYNtMbW1l5tP36lxbptpxpnd8TEPs6aSE8PGXj7VW0QRq0vtk9C4iFxp9TUpq/9eMaclHqCDwR79OGV+hIIiGG0OlxWhBOSJfk68grfuLfO2N/5scD/HjvmuWEBSv+iJ5DqryxIBw7QbaY5I9ELIrDd0lifoxLr2B92QYYdtoGF+qIn/weVb37z0weBZK0ZqHcL7BPl/8KJ5Iu9os0Ux7Vt47574GoX53JYZy+ZSt8cppka+8TcmpAmLnsIvlrwhAQAIAsvgtUi+KG9+uTo/FK/DxpXDJBYwDSExtWo+U2MphzRFRSFeIbGX34gxgnA1Wp5isPpdbOfm5bYzKb77j3c8tSPiu4TrVv62pyW7hPIgp3gNlTB9gostgvXF1IsxYTqfx46vnWxxUhajzjdf4868GyyOhlMDstCneO4SVzTiBnJuaopwqLbBN1vH/3Zp71ckXcimXtJSXUMdFaqWUt1MYODnYWpMzUO5pDyLnEXvmKjEZhwogeGYnQB33HpMpWFbK3hzncc9wSn1aBLDQL8dNJIt9yr2q2M00T2U91Hw==
+    properties :
+     x : 214
+     y : 103
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : BwAAAAcAAAB8whTP8jyNmgkMGIsGPo1+pzoS8WCO0MjlsupNMDb1aWheqcvaLo0QXA3+B5msICF6WlXec3vIsfwkEbdnxkpZPJXHxmGq+kab8JFAmwawQlUbKJZMDFs=
+        code : |1-
+         // Lecture des informations saisies<§rad:1§>
+         EcranVersFichier()<§rad:1§>
+         <§rad:1§>
+         // Ajoute / Modifie l'enregistrement<§rad:1§>
+         Creance.Enregistre()<§rad:1§>
+         PG_MiseAJour_Etat(creance.idmission)
+         // Ferme la fenêtre<§rad:1§>
+         Ferme("",Vrai)<§rad:1§>
+         <§rad:1§>
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Annuler
+    identifier : 0x23ae18e8376127b8
+    internal_properties : BwAAAAcAAACUR894lmZF7VnmaoLipcZtHlAhsRArYEGTCKOJFqJ/3GHMOA23/xf3T3OSqunbEWsYNlk4pDR5+iv96JmkS0r55ZDe6Dq7kVLh8yqU5RSCvB3Qag0I+xWCDtSFb/jCGfVecysFqhNaOOcAOk4NX2DlvTTktDBc3b3QLFTPy9vFb/IJHpX/MeCzgvlYQXppeYxzuIE2NbInzfTIpbk9o1vobmfrSkoK3YHw27TT1rvqOrRXqmGNy3UT2RSfiWYLiZVI1vt57Y214j/yP8mxiD65RIylDNH2A0n8AFow8muB4hoFGHtDbkA19VsMktBTemxL9Rc5nN6XGUKgH20tkCa/nMScQ4H+M+xt6tJzm/rBGoD4Dv6Te1FO5IBoszwN6Oopo+ALaH8uubLBfCTKhf4fzGhKScAhaMEuS0XSENe1+4NekOf+iJCsrT1bA+y9s7gSJ8Dq0Gqmb+Kio8bTJ1STToWpKmO4G9cFJYLbQJZ4oe4r6gauyZwgWCsHmLtk39HFs9NG337WPmvOL7gOVPjRcTYAFRiPfsMVE1JvoSDkaw686lh5v7+8eeL5YFDWAie/QMxorBzDVkzZ7Npn65jeTJo+EAMB2DQqduE6xRlFV09RinZ7eZJq4H1xCjHsuD04xDYElBWS+7mS5sTHwKd+7Bv8JN2Z7IrVHwDQQkje29ORNnRIh50RzmXmr8SZoMAVP+aUG5Sf62ruGi3bnu7K0FKX5xRp7OupWzMQ7F6Y9tTgMPmGEXykzBhHxBl2bEeMT0pAtb6C7I5Arbn4Hw8qNN1a7kg1lLnGVf9QMaGS8VdIvk1h8eeeoWmt5U/RBEJngIjBioSyKoM6NnlN8VdABgrtSk+SZoTFfeREt+KeNodqF0DkHqk4v7BKGwWX4Q==
+    properties :
+     x : 128
+     y : 103
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         // Ferme la fenêtre<§rad:1§>
+         Ferme()<§rad:1§>
+         <§rad:1§>
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : SAI_DateNotifCreance
+    identifier : 0x23ae1902397a8c10
+    internal_properties : BwAAAAcAAABS9jb6Bc7xiw9ut+HvGn9v7PEU7p/eDtMHHP4TnDBteSNdrrsJi6NhPOpWZ7S3tq1loOSg2oMfjFCD7q+jWkar+yao2NGJN8IF71Htcr57W0/S9Vca329i0Qppejbe61aLBQorfT7xmPxbeFZUUwuNSzYP8OImDDNZHMPNngi1t7El/xdilS1sB+WVKneCkTPMLrxqXXKmSIFDvD1l038L2zXxOcRL4SKO64AfPtcEXGAdEqy/WD++cRMO7rh36EtjlQTgBrtOgJ99fVVn9G6G5adVKSeOT0+BJiXi9Qrbd3l0dWMx1t+HT0mDW5hxgvmBV+nmjur8Yp1T0H8069CV04B26mvBXWnRm1hjy9hN67SzQUJO1yMKfziwn01vwE0JbKG0J7k60FOgJdWN82ltRhNK8FeQhnPS1Vqu1+3VMIuD54/CEeBY7f0sFNA3ERPxDcek3UMrblrRxEdk3keQlzt24CA6gyC2f2bEg5+JVQr4QpxXOVbmjUoU2y/Yz2Zsrn/GwGRXR0yRgJAcY9akszE9uWMSO0rI+9xPTjshYo9QjHVCOP7onDMDWNijgTaRRmDuiWKb2EJxJBHkMdjxlbYambUo8fJIdpYw/NW/DUU+dzeN+chFsNN9setyiT9UvEFbL3eIV7okVAPXz3LqTGABIj3V2iV9UPUJx5ITCXYyhExJMESz2YF/LIrXKd0teL6uFuTkCSQYhJGydHckJVszdWJV/GILGwTJTKfhsJs50ky4hcEble/6LgnzrCFedxxpCSJcfZ5Rz82zRt3JE9+apNO5vVSnPP/bys+KF1u+CRIVn+EMkXU2g04tAidba8hqsBd+KD0gepDVHI63WuStT7sHijg0+OMBjSKoQNDBh5vk818ow7O6HeeVSfA1Rl+5rXvMVWUmQ1HUxT3uVVnh5ov6BT8P3gyqjKUxe4pxyENmhw+n/yueIk1K6ger4U/eXMQiKNgh17faRqkRzSHwc1JIVpzBfqPxQiOI9qvZxghtf6MIXYx5HQREQZ95gxc5F9PNQyibnDpDwIkR2ZFps8WokgO3ZgOPEuT0I1NkCUBhuhI9xQNiY49+iDm3ptt66z7UX2yjN/Ad7hNLvR3w+F3Dbn50G3jl7stDbrM15HsqJDh5RTRboiNgDyegUwtcNKKiWXNihzMYceCyCWZRC87PP7umaVB4EaBCtvQb9dVk+4QGWPM/LOVoltVZLQppWBl9tlO/YWxFsnGxIR4wxk78c9IoJPNzabp8xpfWRgXGwSoj72IgEDC33Co+B1g5AmpfwObJIoLgCpSkKMi9w1xGZfGAdyTaqj15Z77Qnv8zpf6ymYSRsQ+TD/7wD6FPoJ6ujRv74XjY9mQkDyfzvU0W
+    properties :
+     x : 6
+     y : 64
+     width : 288
+     height : 22
+    calendar :
+     internal_properties : BwAAAAcAAAAeq3zcQBx1UMw+ij83l/w5wpf/Ru04/thuNKzX4bRALffIivoR9nzkMudO50Z5z80Drvp+CtkjI42xPqcMml6azHCtI8XP9X9OH8CgcMHYU+uFWuRfDYr9Te9is7WUmR0fyZ0nCORfBicVR2A8ucJbzOgdhPVfoZRyACaiWhvFYzT2T0vcMxZDeOuuxR2DdTSpOv3scCEyDp0tdrT8/GodDLIWTEISP1BfgO8Q3Jh2HzUqjkTco37MlVYovtwXV9EbvpXYb+1ACd1XQWam+gd7YEZlbqB+3od9AKRJhw4b3pWVUHMXb7Tp2/jCo/adBUguyiyNKF6q9NLnADXnuER02pih3/HaKtnKb592XPD4floQllR+NENVY7f0CsEDLlmZcmLQUwyggcMfWWnnD2V61AT0GYx6T/RuP/vxxOJ9WqMn8lC73P2SWHvCqZIz/n5D3lGW94TYOkQzDDl8fpe76w5jzj3puBbJ+R5y7AZBvEhxic7YwFKHYsQm/0/OFn0TKpNZUACbez664JNWBoEntqONdpqCRlvSqnLoOl8VfXjveu3WiGAldVsOQCy2ooo+JBmqFyMrny2LiPRtHyH4ht1w/kcmd8B6btHZ/tBVV3/8NPs1suaBInQZxPiyZphXJYZzqIID177wGo2Lj3uVI5z3exEDAS4d+2kSyavricuE8eF9AiuO4pG3gtWnQZYqGa7m8NY339sHP7BzTjydAkTJOgsT9wdyUA9cwJtQWFuvklMoawbBcOg5xsi/VMau33Vg3w6QSJSAZ5lN9kbn9Kq+SdSz/VO70eYPSzueb3TPfLQSgLmsMt/KeudPxUGbpwqlI1gLb3d6PBm6vwBL5XjPdJ2QBl/zWsHXABIS0GQJzGfmMyE/0/7/o+Aga7TZzg/7mYr+zMds+4W6ck/zorROWUfWI9B8PB+l7+KYqL1g6r6kTqDjQgunYFFJ4ixkyDCFsDMzCMf/YoO1NIilsvg8WiFhVfPPQu6r48siqLgQIHN0JEygVHleSPtDPkzkNyN2oHu8ecSrWdAVwbgXlV++DX+h5CS8UcnZdeYwwuIACW/ga8MY1CALGDXx4bn9uyzWRWcZTtQZXl4pWKcH/D/ZdefCBqZCuXfiyRgt0qA1T8MPO8JWUFU6KNP4NPqfcwjRH43WwkroLL8Mlzwc5EmxwwAUNrNnS52qxZ5EMH8Y+uAvGSyBwVVSEp3dOPj4F2G/LrauhcPdT+CZ3IEdOIcQt13xHWs+Ad10H930MURtClY+Uaikzr8xPaG6pg1MxG/tFBFvqj9cp05q/cWr2xEBw+8aIi9Fg14hVVqbMHBcJcEbeRsgkSLybbVmBNuzmD7cjvGgQ/5crOs/CinWtHHXia0=
+     type : 47
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : LIB_Affilie
+    identifier : 0x23ae192d398335ec
+    internal_properties : BwAAAAcAAAC8MFcQdpl1/aa7AgwoTy3dTgIVW00BmVMus5qfO7Qs++B4GCIWGpXSLF29LcrIhweaI/C7BITwIbXAYgpp7wATv/V0JU5IFQzWebC0Po4gvDM1FKyOl0q3chXOSR4MrmIFrEGzQtXKoRLgkQJd2hf2vogkS97vmqg1R0yPneBXx9iwGuwxE16QMni8mSoGhB6VzDjppM1+LcoYWCqUn2SjesrzAvuRe0U+mzyQcNAUxfVM3HBtA9jMKlUVv4Od/nHpJHSYjh0Z2gfWCV3RrAuJZQhTbxd4D9aq5xuYH05HnJbLF0PLITe727VAz6ak6RLMNr/Uz1xWDaX/kcun6pD8imZNcsqHjGC0pmHoptxuS1k/y4qG0efnY1Cv2xiIBo7aKkjAe7HolW/EpZkRxHGuMiLL0EhesU5X/xLQZBp9hhhRV5ZIUlOZilpRowc=
+    properties :
+     x : 6
+     y : 32
+     width : 288
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_OM_N
+    identifier : 0x23ae192d398535ec
+    internal_properties : BwAAAAcAAACIXcZd2yWdydzbGQpkJDW8lbYrNHonryNWrOP8iDXOMHGr1y9TQtU5VxR/v4KPD9VHVWt6VFdOdKPiZ6WD/eRDtbK4q6+nT3ndu0dIwjhqoomNcA+/L2RAbG29TXv67KbdFuwAfM7ZZA6E+jUKmHzNOI+94d8ma26DOj5e8YXuiYDZpiVRrdhYwtb/EC9QGpuRMDuP7LuY42+sYcnnHlsYIiVvPyCu3Nf7YRS9g9LV7cEeCQWOmW0kp7GP6ojBD5crFM/xTQ3oChgGF54eSpr7+zTOMJxAIibXK/3FZCKahqwnbDqUi6abBHe0liWQ1MwK6hClxsxXcewVnbQQljO0dmzEr0+JfXLXWJWxYbrlqTOrFMUtkAYklSU43uIZkjKfculsOd3bZkFLvYTuItab22p2ny39pb9xxseWE88N24GXzgVtkyiuxKpMRw==
+    properties :
+     x : 6
+     y : 6
+     width : 288
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+ menu :
+  name : _Menu
+  identifier : 0x273afca111f3c66a
+  internal_properties : BwAAAAcAAABB25mSuVLf9Efpexjrlk16QQfEjBf5Ba8b4ZqJbD3jIs0d/G2lW6d5TaoTtLsLhhNbSQeoGruXkodebV8sL60wSwfZsotzcwuphD2mnq78z2qvJU2yTsvp0qw5yu8uM7zFzleN0j1VVhdLrbVMd5r7QfOcWE9dwfaJrSbMu2nstaeUzWeeGNaA3jW9DlWetGQ5sjS9xtJC2JWFj4L6Q2Fn2oeCiF0MqC7cMfqYwMI8aLoINIor6R3DD/N+hU0OTy563Drt98kPaiTG3Q7gqMI5VGhcw3RoK/0GoC3//woPdKU=
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : BwAAAAcAAAC4NW9UkbRLpmE2Bdm7am3dd6gBY4dSxiW4OmFbI+J9Lr9ziDCIWPE31ZC0PezllIBY0TrcWtfGcb4X941q9mceVjwV/Te/mjEUypnSF4A=
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     internal_properties : BwAAAAcAAABYxSC3Cp1yBTyrJ/2BTkhMB4j8437pso3GJmARvJbefoMzFHNVs9rPLVES9eVbPfgC65HHpasFtl6ZO/kjk6EEFE5DrzcSkvELUv2opdnOY7ofHWDpuTnI
+     code : |1-
+      // Résumé : Fenêtre fiche de saisie ou de modification d'un Creance<§rad:1§>
+      // Syntaxe :<§rad:1§>
+      //FEN_Fiche_Creance ()<§rad:1§>
+      //<§rad:1§>
+      // Paramètres :<§rad:1§>
+      //	Aucun<§rad:1§>
+      // Valeur de retour :<§rad:1§>
+      // 	Aucune<§rad:1§>
+      //<§rad:1§>
+      // Exemple :<§rad:1§>
+      // Ouvre(Fen_Fiche_Creance)<§rad:1§>
+      // Traitement automatique des erreurs :   afficher l'erreur, puis quitter ou relancer l'application<§rad:1§>
+      //<§rad:1§>
+      <§rad:1§>
+      PROCÉDURE FEN_Fiche_Creance()<§rad:1§>
+      <§rad:1§>
+      <§rad:1§>
+   -
+     code : |1-
+      // Affichage des enregistrements<§rad:1§>
+      FichierVersEcran()<§rad:1§>
+      <§rad:1§>
+      // Valeur de retour par défaut<§rad:1§>
+      MaFenêtre..ValeurRenvoyée = Faux<§rad:1§>
+      
+      SI HLitRecherche(Mission,IDMission,creance.IDMission) ALORS
+      	LIB_OM_N	= "OM N° "+Mission.NumOM
+      	LIB_Affilie	= "Affilié: "+Mission.NumAffilie+" - "+Mission.NomAffilie
+      FIN
+     type : 34
+   -
+     type : 230
+     enabled : false
+ code_parameters :
+  internal_properties : BwAAAAcAAAA6ih3UbgNXHwTtiPSFUEj+2fi/m7v4QV2rqidAupM=
+  original_name : FEN_Fenêtre1
+resources :
+ string_res :
+  identifier : 0x13ae18de03060319
+  internal_properties : BwAAAAcAAAAnMYFQ1bL/vz9ehh7L22SNNSlIzGTOI8h5F/WtgDNP
+custom_note :
+ internal_properties : BwAAAAcAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+associated_test :
+ name : TEST_Fiche_RADFichierB.wxt
+rad :
+ internal_properties : BwAAAAcAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

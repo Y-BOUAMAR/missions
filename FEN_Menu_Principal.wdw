@@ -1,0 +1,355 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_Menu_Principal
+ major_version : 27
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_Menu_Principal
+ identifier : 0x23ae07f2103fe5bf
+ internal_properties : BwAAAAcAAABjSvkqVXAaimh9zgZIAs5KFrZSIV+OOv0lcrp+1JNJkJmWRhWgHLXVas5Ah7S2alNVML+Cf/7L72JTevel1FSa9xxJ+f9yBb9l3LaEyygMBiu+e3La94b6AROISEJ85a4/4i2V99akwxomPACcwiBTyXHF9pDjWxLCR74sCBMBhgAieRevwOIHjK4kuHvGEFsqo6/RB6/6xso/GhwcR/ttjiDMA4FAkJwFYarUA1rW2fw7TMFZCzl+ove+PUkV3Cc4RUDhIj0D56cRULOzbY11Tsm3XZvva8TYyh7oj+mJSr5/CPekmkW2tnOOkdlVC2MpbEbcVDSEFh657QPUtmNOwbnl9SkQ+jmrfs7FrntGj/Hgns0t1NizJS6NGY257vDZwEt+gkvLUP6R4ZXDG2+fyF7Bu02pp+EA5YH1QHQ6RLWhw2G6NITC2mAdosZREMRX8jtGhVbofUkNhnHS7kiUesK2eROd4T0CH68DU21WTyioZdeCscdPjj91NSsZ4vAhndO0XLg2HXMbL9jgRJ4YJY449FgMqrR1nS1qfM5dzDssj48hjiIV8iGJ34BwsVy1WBJe4ceSdInCu8nvZ+3JBoaOUHaNDgCdk/lPN+fZC4cL8n4ImLfzwDtH0Xdm/rDri10ocPZqQ264T1Wzwf7Cc/UpN3s0O2Krhw==
+ properties :
+  width : 800
+  height : 626
+  widthClient : 798
+  heightClient : 594
+ controls :
+  -
+    name : RUBAN_SansNom1
+    identifier : 0x23ae093a1135e857
+    internal_properties : BwAAAAcAAADA/rQi0kUVhbZf+/NUZb0BCNaX+3inOwNJRA9Ownp7lBjFHzx/beNp9Xv8l2jeaZgklJGPMhKJrDYiYhOJdIwO/L0AqhH85k0//KfQLkF9KvtFIffK3wYwGFCS8XInCnRzgBfAEseiMlCZXt76B0b7pg1Cbd9oPLOJt+4uBkQYOzZ03k+Ifp0ZEzrjbHkwQHNR5AeEpyJpWguvZ5ImcAlb3QGyHQ8pgFi5QlBowPuZ5XPwBP+Q0mEZ4mowpzkvMxh7J+k5LZfNzbED3l/ltH5qwk0lI5020pfX5PRAV+A60w4BOhLe3bbmOwq8Q7otI29kifLQBdZMWgFthg34ShZimd2DYSqmu82IHOFl7J66uokawMJ92Vg8OpErAoTYaLHolpMolXWZw/yqQOy9cQnv/c23sYY3EhfRw+OmZMUH+celP2qQApd71FpCBZHcZYOa0bThepECGuhYNOWajDKTKY6M72YcT0IEgM007eEf52Sq8y+UYICHYFAWTzqsc18UNTSbZpCL4q4vPTsseLK067IJHgjfetIFuRePEO65HYZ95b1QPLcbohCQslubk4Fe85M0RRJqmh8+HvzYLDlgNUjdJRngzZenwm86c7FRFC+K0iTlM2xa5Op8+Bi3QPIaoQLzDOvZ8JylhyJOG0BgxbKEYKoFu0ane5eC9LV8HFWaUVltOTIEYne/3XwVpd8b99CGHMxMAlzXYUqhCEZZsU0pW1F3Z1+QR+n2cS9lVtXK6u6pn3MJgCfHscUlRGQddK3OJCMMgggFzNM8+mE6m1hxu4yx//RchZdTn/IY/Fjsasy+KMfcFTzqo2KSNHh9RtsVhJFXq8sA7IzYPQyfgxkyWcsLhyQMnLrsctucfFr2C63jsnZ7lWaOwTltlCrYWEgieKqOT0IyW7H0vqd70XOChLQ2s4S5n8f9UAcj6EQx01Sj/oO6Y4X/b3eNz18YecqNWwMrBYsynPDvsMlu+6zvQX/iawfWbo5jE8FnADlovJqquokEygXk7BC28DDQr7Wy
+    properties :
+     width : 798
+     height : 110
+    tabs :
+     -
+       internal_properties : BwAAAAcAAAC5+fP+k4rWZzihu28/2Otdt9Dwofd4InyqXmxKUx4dOB+5Yo/evk1c0AfWr7BaaI1AL4T+bvozuYi96e6GZwE0sa8PhrJyAbhpFBAD081iuqDCE9r9RD1ArCWXIGK+Vr/hQmfF6M2Ep5AMHP0yFA5UydQkMw==
+       ribbon_groups :
+        -
+          name : GRPRUB_SansNom1
+          identifier : 0x23ae093a1137e857
+          internal_properties : BwAAAAcAAACJGNBzA5hnfYDHMS7inQLQd+zWSjMFfmxhZjzwK9UktprDQmPeAmDhfo05SLO3Zg4PtRdRgkfwY+5zoflLwPhUUIDpjlGU3ajA1RMOqU+0XU3m0AH+t/bdi4YpUwSmLsyzqhh9/RbIHXI9K+wFzuvEkVv2HpaIdP996X3TxOI4Xx7n1fJZs46+hSya/wn34CjlCKyprlOsuhLG5mq/+MRtMwxeuV5+vgeZnZp2J9XIG2DzpAGNaIatnLXexzFcGtkbpJRmtFUEaRbc4u7gi9xgnTHH0UclzHY05dsBF/keRYRCD9sQZ0qDSRcDS7ZNssitMOEcR3thFN7mNDt6kn9sydlCLvcQtpkKvDqpSNYvJzJQ6VnS7AtB4sOW8L0ZOX/s4QA0YWeJva/09ya39rHk6l6ZmIKIXvum2DRL/GygboHCmQM7E2Wir3pEXWwRFUnbhcfonTaDxqEiTf0jnYYHRGuCcQ==
+          properties :
+           y : 3
+           width : 177
+           height : 80
+          controls :
+           -
+             name : BTN_Missions
+             identifier : 0x23ae0940113b01e9
+             internal_properties : BwAAAAcAAABPakc4yFYk7PnVgoX17gttxHDlk2Ykb5T9R/8Nk42iWtoQHzPzS/gxjZII56W1qfwe8myKPQ2J9AZBy4TbtHz2FlhW8jNHg1Nu6y9nlqav1kOpoV4Svkqml3Mrz8LF7iZWs/E0URcrPq4CqflVN4gja6fMcBi/C5Vhd7XSAw7A8BuFBgPlzyb7nGDTDGkEr4uPF1JuABHEnbwjC3pjn7VNPpXgNzx0Py1vTftnQ68iawdnK64E0qY11T+r2NqSk3FUzQbAvCjYTWE8sx6Xu7muy+pZ6FEJ5MN+Go7ih8TNEh99SKQrHFPUqqXpob75/mLncJay8C2n2AJNt0RxmMqydHoZglvBOuYMieVUSJb50Uixq+7e0xcfcDHtL8Wd1yVwcmXz6O4jhsAdG87Rehd0Ml1zgIVEfkkSdgG0RROddHy+qkwhMw1hO3vO+THee5kMdwvn0fYpBvSu2uGc6BcqUR/Mwq7AFJ5zrGwVlY1oOwk2IDlD6FeSzgPCtIXBer9G5KmqeGtkoqsGo+u5ijgLB9fJmoekzSdTSGWaz2eKAtRB0AiW/KVV3DRUndkeXkbsfcFG2BIR3Ya2JawZo/zAMc0e9mdxbowOwqR3a5k+gGNOBlTu3Sqc03fIo9nO4bTwBNFck80pKqWTsOXgWQAQ/ddpVTsErX6zEPsSpyzEe1yzX+0DWaQz/yjJ4fJOxMKMYg8yYfbPRwZS2PpNkiONyzVSQqF3+2i4iZ5d+qj4/wcr+F9e+hjyz8j+G3ey3dfslL4aSadOA416xqr2e8bkUGrKgGbRBbhw03hIGaizjy+V+M0YDUqkWRQD9Hp7/qOu7QtfoIptJ49gti3EtAkTTChdwwPaG9uiWRZyUnrW1qDHCCN0Ux1tLjlMRm2HQ+mzkaVWPY/pPQS4RY5mmkowO9aDwavR/7yojw9bvUSLA2UQi9Jl4qHmv582lmrJbUujro/R5IUTXfUnuek3xYsG4Wi1osSwWy6aLocY8CWJlSXUJkQailp1qHp+4uN/SaT0KpeluybMc/t9Rgo9dxUvwqxbbElwRCbmKE7lNuw1H7iUo+p/26xFxlEsRh0OohKY6UhPCyGXNyZTTAsAYFC1OpIdjk/Sey51Tr7inE6zO5FvSi0=
+             properties :
+              x : 6
+              y : 3
+              width : 80
+              height : 61
+             type : 4
+             code_elements :
+              type_code : 4
+              p_codes :
+               -
+                 code : |1+
+                  ouvrefille(FEN_Liste_des_missions)
+                 type : 18
+               -
+                 type : 161
+                 enabled : false
+           -
+             name : BTN_Inspecteurs
+             identifier : 0x23ae0940113d01e9
+             internal_properties : BwAAAAcAAAAmSFkIpgmaerMT5mMY4NWEUQLktsdG+29t/D7Aheaikni5zIA3sHzbVXH+5JGOA57owVeo382MzTTNtYnq2F7dFJz6FBsmVnrMF0rGMQr6s2v7h0Ksjspt2cAnoPZ/hOjrm0nyxTzrBr3BhRUnGXxiY4351MD3hHAs5IQgDlSVoaVzWryN46dZv5J9cpDmQdZC9BnjNerLlo8v//TE7D2NEhTRsvcE23tKsX4fWgvjUGomm0/ybt37XFDYyvMLHO1yuG1VqhOu1BuRgBjTgyrk940L4vum1B95hh1w7Tm68eYSf5dMDpPe3yWgcuOx8GDeJE1Sm8ZFNr6OWpoUD9Fusc4nSN4B10fwUjW7FSnK03u361WJwIKzX/SpPljeOqOyCqfPBFosaQnG1ImFt4X7hSBC81NQgC0yeQoIwim3ZZzBptKgMiOgqGQ/e5got8n7Y2T5ZNl0JouqUiaQMUNRg7qdiskeTHgsCy2ciNcvsbdSKvGbvM+3LKShthaNiW0TTn0960yFlR0o2b1NOTlHqQcbwzG5WvZ5ooE5KhlJRGQY457w0ZcedNE8QF9gx16nmuNBtVEBUy8wARl4UMHnaZoISfSQns7byubgsABVLW37rB31ojL+LBH8+MgDIIFA1Wu1AipZRJabRMR1sKErfbJnKlQHd8YslF0PsjXB0qh0t3ZGQnq/LNL7IJOJA1/ypc+zFC+1A69s7Ed6mSLCq0ZeZZSoHdxJy14OdVlbGMUooCanJbC4zKLC6GjdpJykEzbFxFD4IwYUuscNKCcv9GcEmWf0VdL9/cjxaks0oqFODph7xi4GWggLVzPeNfiS2EvCV295uchGZup159AAdK8x3vKfFZ9DbaIZXQM7JcDcRnRjQIO1/Xtix+Aoqv7z7hmBBlKD0Y1WDXfXJVObVT0FLCg4Wbi5gfsecKW+vMU1nTM6+VuKZOFWZ1/otMiV/V2GBw4ZnV6h6XZO4uIbN5VPZ917w3iHXBsXA+Zc1prnbmx9LUO/Yc3D9czaXzo/jjbKcJiO4p8p5ahKrfyu7mwrPcVyE9SRT0N1vqAWRpLtPXZgMHP/lZooUBVrq+zd0Au/47nDTI7kectInOoWP8QUhEO6YmBIM1v8yq4rqlqQ8rFGDTxDB+WjUoTQne0tNQ==
+             properties :
+              x : 92
+              y : 3
+              width : 80
+              height : 61
+             type : 4
+             code_elements :
+              type_code : 4
+              p_codes :
+               -
+                 code : |1+
+                  ouvrefille(FEN_Liste_Inspecteurs)
+                 type : 18
+               -
+                 type : 161
+                 enabled : false
+          type : 88
+          code_elements :
+           type_code : 123
+           p_codes : []
+       controls : []
+    type : 87
+    controls : []
+    code_elements :
+     type_code : 119
+     p_codes :
+      -
+        type : 292
+        enabled : false
+      -
+        type : 293
+        enabled : false
+  -
+    name : LIB_Inspecteur_connecté
+    identifier : 0x23ae2dca4a91bc2e
+    internal_properties : BwAAAAcAAACu+BieYtDPOmJH9eM/PXMwyEqLXHIB9rVmh+FPrgoJTHVKCreyYMaHOEsYhn05/JqSaQFC4HnebipRrW6TIv/o28s720VDE451kIjR1RO1ojpUv4EW9RdGMq7ZNf5xEEVf7Rsi/VdqjMiKE7aThbLOlAwb8D9UTk6KAXbYX167tB6VvaMQ05nL1lfGtz2TwbN0Ppg7tDG4HVlBQ4DS1UI5fubY3E6VgXPvtJB2q9Qd/U/xP0bpaFGjoypBeadTgX02Ge7R0CdCENkaNIxOraeC6IhWAbTNSclO/RUqroO+veC90fwse+RMsyzYYZda0KA1Z0UdVmB51ev1pLwICWYFuH8n5XCIBjahxQ1uEAOweGXOlb2XMM/vQOacyAfdfEq0PcCIcalPRQXsFGTqNuwuw61yoTNyc9Gy3On9fq312fMO5MlrlpHK2NuYxpGSdDf0hwsRmv2fm2fSR/+ZuTnYrGely3Eq
+    properties :
+     x : 636
+     y : 21
+     width : 156
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_NomPrenomInspecteurConnecte
+    identifier : 0x23ae2de84a9931db
+    internal_properties : BwAAAAcAAAChgrKZpgjNhfeu/lNOz+dqtjfPhPGg1dzj6Ws8nkAjxhgp2p95wuD5UNJLPTX1fecXu2XJLyJ368v0URaDv1Dip4dwAB+P5cMv5lwjKcnOWQWybkqFfLOt4qyv1+uQYMuyhzAmwQkNL4/1ywM2hf5Tih1KhWM7uFp1IHtnwuKawDATzs/r+FPtJj41JR5pwWm4/STWGsS5kEwEh4pSoLJOHZyzh5Ld1fVEETW6gsKnV/yALI3a3a3GFEc38IK2D/VTdzN6Tr5THUCmheOtfz2NdloYAm7GhFwNTJEFEv/zVnsjtln5QCvyHkVu/g/CXu2ioXozSCTq8jOmBhK58EGZoHsoEydGW1Ht5IU9vvmj0VvTX3eN2op8ssC0lH5CWEIR7l9rvs7EQTLRSnZJBkNISQiNq1DNCiIb9gxU8UUJyUKZIv87EIlBVVi4kN9CQqXwlda0kClXA8HFXHjp6IoRBuBLwJQdxsTF5yZy285Bv64Dfi8/tAky+cLnKYMl6rOylbAudt2FeLnKpCjtOx4CCZaLolK5pwt4PmhASTOILsYMfn87x2nWsG2f+TKV
+    properties :
+     x : 636
+     y : 41
+     width : 156
+     height : 25
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+         OuvreMenuContextuel(MENU_UTILISATEUR,LIB_NomPrenomInspecteurConnecte..X,LIB_NomPrenomInspecteurConnecte..y+LIB_NomPrenomInspecteurConnecte..hauteur)
+        type : 18
+ menu :
+  name : _Menu
+  identifier : 0x292573e513b5f221
+  internal_properties : BwAAAAcAAABHivBqFH8xYQq/QELUltmClIuqm9KM3lg0XSaBAQ41WqT06R9JfU0qGK5sHUl8/xHCuvP3y9tLeLLOVaAgM2FjnfwSCRBgXqneLsHogwTYpIXuB1zp2uXtmOXYyGd6i+ek6BBvtJ0ylgF/MxkRihdZ26pl/9Jf5c+sxo07G0ZzHfcLEu9WD07gTSld25EPGWjvi/e5TxaHOZSRE8C5Ig+YdJawYdK89l+x1ofEmw3pfCNLUe3tNoiwg4AbC1jLdufmJ97Xc0JHDAy7gJsHBzEWwcuroqy2By4PJ4c6Wg==
+  options : []
+ popup_menus :
+  -
+    name : MENU_UTILISATEUR
+    identifier : 0x23aeb44f0248f0a4
+    internal_properties : BwAAAAcAAAABcIgb9SYPCoD/N/89PYrDUV/RG4hf1BfDrr3V343fApw5JA4IK9hN4lhiVYhb+at4C6uwyEtewm594JJInDeA5BD5Kogg/5QUvF6qcZS46IvuAAMPQ12jXnnEh7uqqgYKZgogJO21+724jXMLftMBtn81r3KWMpHPMacB5lgwo5uqEpEmrWBzwdJD+5wJq31SPBzxFZiVdZgycWjCvFmHlAhDgxs5nAL7YrweLq24duL5hXeyUI36evSz8xEy52vLo9bYkOoTN3C5jRk6GaM1WTRMZO668iaJ3bOYdw+vsh2VxTZPEzDn//ydpkhaeOEZkL1JDz4w5RkLXNNGCu3sNGQ80pXJy6dWVou/vLqZHQMmZe5DXAFSw4xB7gjkqbPgai+YMKq2dhUD88N6LQ==
+    options :
+     -
+       name : OPT_ModifierPass
+       identifier : 0x23aeb44f0249f0a4
+       internal_properties : BwAAAAcAAACO+3Ov0V3oh1Y/xOXGw+ZfI8T6oPDocU2PR/obLBLHIbVREL7Ez7cvmOEKECJ57JvG5KUZbULM75fGWZpzJW/b05uYSN6ps2Z7b7EIRS4U0561nzPNJ1ium5EwwqGJrptXFs8+aZ1C+0PVl21FkojqnHuXFnwMePvDI4mgga++vNFcEY7y88C4j2zkEPpfdJ+iNfVddDUSJ7zFhrUM7bv0TFMG1dE80RDjQ9OMZ6WrFHDwETdteoD2Lu6K0dHyjf1p1fN4Pw9V/psCd+HzOYAOnh7L0B1diU2yZL1eH9O524WQNdnFaMlX4/k3ejR/aQR2nY81otJizt7xxOCS3In5tuPDOslBqhrz0yIwUCzcPopAzyzTcEP4YcbzNDwGts7aZkaXMxlrwMFLOE7Durl4kXHbN5aqHLo7Xx1q+SPFNjZExOVoosJdtFubko3af4A=
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1+
+            ouvre(FEN_Modifier_MotdePasse)
+           type : 32
+     -
+       name : OPT_Quitter_l_application
+       identifier : 0x23aeb4da02570e06
+       internal_properties : BwAAAAcAAAChFKbxkri/gkZhF7frtFVI8RIikaZcxQw9RwaQ0H8StmdelStmYTjACE8WnH/9qsbvyBPWjIZIGULOZdwVVpMt6bqtp0wxEsXi16cqHjHmDGFN7gqGtg7DmQVsQErd2AnSqV6lsfb+WhZE4DlHTrtsPBgH0vd9qntNwcIw3uRzJ8+3hvEaQWGSfoTpmX65g5KnEzcyolUsGtuvUrGKBrrvt+UaYgnQ4Rn4ZgF9dSjpoV8USsClA7CZto7hN24ByA+XYuyksXO/XCW+hkdzGjPXDFbIuwT4KgOl63jWdtuwl2FqLbX/AFTKpNnkR+Owr71aPACS6VxtS89vKoOySw0aHY8WIvDsrjKftMiaYQ+aGu05EbobXLIwYmpqEHSUAOWVyBP7+3BR82vjaD0Wz0SkNwheL+QW85PupEfpxy/Qhm1qsYMlKRh8jt4/TKo/rHyd
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1+
+            finprogramme()
+           type : 32
+    controls : []
+    code_elements :
+     type_code : 26
+     p_codes : []
+ languages :
+  - fr-FR
+ message_bar :
+  internal_properties : BwAAAAcAAADG0006i3ptxMcUE+O5cGvDhb43eRlY9UEE1z/7izK93v/ToMiwACETQQw4eQhZuJRMFa6SBwwT+zSdDbdc5HEkXDob51ldPFNKsP+0MWY=
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      PROCEDURE MaFenêtre()
+   -
+     code : |1+
+      si ouvre(fen_login) ALORS
+      	si gbAdministrateur = vrai alors
+      		BTN_Inspecteurs..etat = actif
+      	sinon
+      		BTN_Inspecteurs..etat = grisé
+      	FIN
+      	LIB_NomPrenomInspecteurConnecte = gsNomPrenom
+      	PL_CheckAlertes()
+      sinon
+      	finprogramme()
+      FIN
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+  procedures :
+   -
+     name : PL_CheckAlertes
+     internal_properties : BwAAAAcAAADuZwORrJQSnS1SdiBnOijo/CerdRrJvvl5c/SmIp76efB8VAGL0jTWQFImAc216GGZ8+a7ZiVGFtJmp2aUbfgFvw6R2hknsLYSgYhq2zGHhetZo4owoy08Ng==
+     procedure_id : 1418837584363343166
+     type_code : 14
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //PL_CheckAlertes ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // <Indiquez ici un exemple d'utilisation>
+      //// Procédure automatique :
+      // La procédure est exécutée manuellement, lors d'un appel dans le code
+      // Elle s'exécutera dans un thread (sans avoir besoin d'appeler la fonction ThreadExecute), avec utilisation de HFSQL (copie complète du contexte)
+      // Elle sera répétée en boucle, en attendant 2 heures entre chaque appel
+      // 
+      
+      procédure PL_CheckAlertes()
+      nNombreAlertes	est un entier		= 0
+      RqMission		est une requête SQL	= 
+      [
+      	SELECT Mission.*, EtatMission.Libelle FROM Mission <§cs:3§>
+      	INNER JOIN EtatMission ON EtatMission.IDEtatMission=Mission.IDEtatMission <§cs:3§>
+      	WHERE EtatMission.Ordre < 8<§cs:3§>
+      	ORDER BY Mission.DateMission DESC<§cs:3§>
+      ]
+      
+      SI HExécuteRequête(RqMission,hRequêteDéfaut) ALORS
+      	
+      	POUR TOUT RqMission 
+      		// Alerte de notification:
+      		RqNotif			est une requête SQL	= 
+      		[
+      			SELECT * FROM Notification WHERE IDMission={pIDMission}<§cs:3§>
+      		]
+      		RqNotif.pIDMission = RqMission.IDMission
+      		SI HExécuteRequête(RqNotif) ALORS
+      			dDateMission	est une date	= RqMission.DateMission
+      			dDateMission..Jour++
+      			SI DateSys() = dDateMission ET DateValide(RqNotif.DateNotification) = Faux ET RqNotif.Taxation = Faux ET RqNotif.MED_NonNotif = Faux ET DateValide(RqNotif.DateEnvoi) = Faux ALORS
+      				nNombreAlertes++
+      			FIN
+      			SI DateSys() > dDateMission ET DateValide(RqNotif.DateNotification) = Faux ET RqNotif.Taxation = Faux ET RqNotif.MED_NonNotif = Faux ET DateValide(RqNotif.DateEnvoi) = Faux ALORS
+      				nNombreAlertes++
+      			FIN
+      			// Alertes sur les documents:
+      			SI DateValide(RqNotif.DateNotification) = Vrai ALORS
+      				RqDoc est une requête SQL = 
+      				[
+      					SELECT * FROM Documents WHERE IDMission={pIDMission}<§cs:3§>
+      				]
+      				RqDoc.pIDMission = RqMission.IDMission
+      				SI HExécuteRequête(RqDoc) ALORS
+      					SI DateValide(RqDoc.DateRemDoc) = Faux ET RqDoc.MED_NonRemiseDoc = Faux ALORS
+      						dDateNotif est une date = RqNotif.DateNotification
+      						dDateNotif..Jour+=3
+      						SI DateSys() >= dDateNotif ALORS
+      							nNombreAlertes++
+      						FIN
+      					FIN
+      					SI DateValide(RqDoc.DateRemDoc) = Faux ET RqDoc.MED_NonRemiseDoc = Vrai ALORS
+      						SI DateValide(RqDoc.DateEnvoi) = Vrai ET DateValide(RqDoc.DateRec) = Vrai ALORS
+      							dDateRec est une date = RqDoc.DateRec
+      							dDateRec..Jour+=8
+      							SI DateSys() >= dDateRec ALORS
+      								nNombreAlertes++
+      							FIN
+      						FIN
+      					FIN
+      					HLibèreRequête(RqDoc)
+      				FIN
+      			FIN
+      			// Chef de redressement:
+      			RqChefRed est une requête SQL = 
+      			[
+      				SELECT * FROM ChefRedressement WHERE IDMission={pIDMission}<§cs:3§>
+      			]
+      			RqChefRed.pIDMission = RqMission.IDMission
+      			SI HExécuteRequête(RqChefRed) ALORS
+      				SI DateValide(RqChefRed.DateRec) = Vrai ALORS
+      					RqCreance est une requête SQL = 
+      					[
+      						SELECT * FROM Creance WHERE IDMission={pIDMission}<§cs:3§>
+      					]
+      					RqCreance.pIDMission = RqMission.IDMission
+      					SI HExécuteRequête(RqCreance) ALORS
+      						SI DateValide(RqCreance.DateNotifCreance) = Faux ALORS
+      							bNonNotifie est un booléen = vrai
+      							SI DateValide(RqCreance.DateNotifCreance) = Vrai ALORS
+      								bNonNotifie = Faux
+      							FIN
+      							SI bNonNotifie = Faux ALORS
+      								bConteste	est un booléen		= faux
+      								RqContest	est une requête SQL	= 
+      								[
+      									SELECT * FROM Contestation WHERE IDMission={pIDMission}<§cs:3§>
+      								]
+      								RqContest.pIDMission = RqMission.IDMission
+      								SI HExécuteRequête(RqContest) ALORS
+      									SI DateValide(RqContest.DateContest)=Vrai ALORS
+      										bConteste = Vrai
+      									FIN
+      									HLibèreRequête(RqContest)
+      								FIN
+      								SI bConteste = Faux ALORS
+      									dDateRec est une Date = RqChefRed.DateRec
+      									dDateRec..Jour +=45
+      									SI DateSys() >= dDateRec ALORS
+      										nNombreAlertes++
+      									FIN
+      								FIN
+      							FIN
+      						FIN
+      						HLibèreRequête(RqCreance)
+      					FIN
+      				FIN
+      				HLibèreRequête(RqChefRed)
+      			FIN
+      			HLibèreRequête(RqNotif)
+      		FIN
+      	FIN
+      FIN
+      
+      ExécuteThreadPrincipal(PI_AfficherAlerte,nNombreAlertes)
+      
+      
+      	PROCÉDURE INTERNE PI_AfficherAlerte(nb)
+      		SI nb>0 ALORS
+      			notifAlerte est une sysNotification
+      			notifAlerte.Titre				= "Alertes sur les missions"
+      			notifAlerte.Texte1				= "Vous avez "+nb+" alertes de délais sur les missions."
+      			notifAlerte.Note				= "ALERTES_NOTIF"
+      			notifAlerte.Boutons[1].Libellé	= "Consulter"
+      			notifAlerte.Boutons[1].Note	= "ALERTE_NOTIF_CONSULTER"
+      			notifAlerte.boutons[1].type = sysNotifBoutonNormal
+      			notifAlerte.boutons[1].Action = "PG_Consulter_Alertes"
+      			notifAlerte.Boutons[2].Libellé	= "Plus tard ..."
+      			notifAlerte.Boutons[2].Type	= sysNotifBoutonFerme
+      			SysNotificationEnvoie(notifAlerte)
+      		FIN
+      	FIN
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : BwAAAAcAAAARaqIs1pWWTrjJkc2sbefp8NGAHSVvdRgpQIePRe9rhkbpERRVEF+Nx8mIqTxrVGdwHX99jtU=
+  original_name : Modele1
+resources :
+ string_res :
+  identifier : 0x13ae07ec0122d0a1
+  internal_properties : BwAAAAcAAAAZ++HSz2luvwiNhadWl8v3mh2d0Pq0fCIps02kogrcwVHmCg==
+custom_note :
+ internal_properties : BwAAAAcAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : BwAAAAcAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

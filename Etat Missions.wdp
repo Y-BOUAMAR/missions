@@ -1,0 +1,179 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : Etat Missions
+ major_version : 27
+ minor_version : 0
+ type : 4097
+ description : Etat des missions
+ subtype : 0
+project :
+ identifier : 0x0
+ internal_properties : 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
+ configurations :
+  -
+    name : Exécutable Windows 32 bits
+    internal_properties : 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
+    configuration_id : 10473875703035861577
+    type : 1
+    generation_name : Suivi des Missions.exe
+    version :
+     major_version : 1
+     generation_version : 2
+     internal_generation_version : 3
+    icon_filename : .\clipboard-64.ico
+    language : 1
+ elements :
+  identifier : 0x43addd0600ee3e5f
+  elements :
+   -
+     name : FEN_Fiche_Documents
+     identifier : 0x43ae115d0b1baf78
+     internal_properties : BwAAAAcAAAAqIBJ2tfK65e3e3TWMp1ZFDrHtPY1cue2glOYjjYaWcp5MyGezWIVAznVvSckH8+UvNw==
+     physical_name : .\FEN_Fiche_Documents.wdw
+     type : 2
+   -
+     name : FEN_Fiche_Notification
+     identifier : 0x43ae0b7f08c9c4c5
+     internal_properties : BwAAAAcAAADwTih0s+jA2+fE4V0Dz7e+rDmro428Q5Rzgz2WBu2vKZdbDqYS/oFKxHtlU9MN9evVXQ==
+     physical_name : .\FEN_Fiche_Notification.wdw
+     type : 2
+   -
+     name : FEN_Menu_Principal
+     identifier : 0x43ae07f20730e5bf
+     internal_properties : BwAAAAcAAAC2nJ6CIR4WGSECF4ZwnLZGOm85qRMCmXuL/c8wGPsZ12XpNr9sm8cEgrkjnWWbZ1mjow==
+     physical_name : .\FEN_Menu_Principal.wdw
+     type : 2
+   -
+     name : FEN_Liste_Inspecteurs
+     identifier : 0x43ae05d60629aa43
+     internal_properties : BwAAAAcAAAALB3MXlNFZAsz9dMVunH59EW40ZFop+j6K9JG0aokVg31XipCabCrjrZQO6qom0sYOFg==
+     physical_name : .\FEN_Liste_Inspecteurs.wdw
+     type : 2
+   -
+     name : FEN_Fiche_Inspecteur
+     identifier : 0x43ae050a05358e6d
+     internal_properties : BwAAAAcAAAAvKYWBUm+vQBA6Uc9i6hl6xBNXfdiNXkHiiNUH0u1BmRoYsj+zuOvQugLdmoVl0jkq
+     physical_name : .\FEN_Fiche_Inspecteur.wdw
+     type : 2
+   -
+     name : FEN_Liste_des_missions
+     identifier : 0x43ae01b002df74d9
+     internal_properties : BwAAAAcAAACmrI6SEU7miVGyMYwf17OeeC933+saKwVOD+YbATJinqaoEdMbJyk08imTbTWrV0mzsw==
+     physical_name : .\FEN_Liste_des_missions.wdw
+     type : 2
+   -
+     name : ProcéduresGlobales
+     identifier : 0x43adfd0e01d65b9c
+     internal_properties : BwAAAAcAAADxTSl9yve/8P7aVC1bG/EEmcRQgEiGrkGy8n9G5zzWWv4CtJdM/VGsm4J8RMwE/OzUXA==
+     physical_name : .\ProcéduresGlobales.wdg
+     type : 7
+   -
+     name : FEN_Fiche_Mission
+     identifier : 0x43adfa3a01c44eb1
+     internal_properties : BwAAAAcAAABPyWUh8s+P4LASMiND7hH+BNxs5N9KacFaUKYRt90Q/4TmcP0YMwNwWmK9+iXFclnK
+     physical_name : .\FEN_Fiche_Mission.wdw
+     type : 2
+   -
+     name : FEN_Fiche_ChefRedressement
+     identifier : 0x43ae13790cc9ed94
+     internal_properties : BwAAAAcAAAAqIBJ2tfK65e3e31E50cJ3uClHrwVEnPNIKisgnEfNI9UNq8Ia6n9AznVvSckH8+UvNw==
+     physical_name : .\FEN_Fiche_ChefRedressement.wdw
+     type : 2
+   -
+     name : FEN_Fiche_Creance
+     identifier : 0x43ae18e80e8d2920
+     internal_properties : BwAAAAcAAAC1kZ2BPhsTzJqn3R3OUGPIodyIqCD3bwWxeUWLg5CCrkrmNGUVMTcp515YoGCQaFigoA==
+     physical_name : .\FEN_Fiche_Creance.wdw
+     type : 2
+   -
+     name : FEN_Suivi_Mission
+     identifier : 0x43ae1cb60fc7041a
+     internal_properties : BwAAAAcAAAAVcX2hHnszbHpHYWO3IpSUUzaSCkLRetit5pOJARKAaESYoFRsm+vJR/74wECwSLgAAA==
+     physical_name : .\FEN_Suivi_Mission.wdw
+     type : 2
+   -
+     name : FEN_Login
+     identifier : 0x43ae2c2411744c0c
+     internal_properties : BwAAAAcAAABi2FpOfSqCnaWGsBDYBrkzZGdTC8tSEuiiZ/N5u1i8fECOft6RuHyIBj2nEZFPK51n7w==
+     physical_name : .\FEN_Login.wdw
+     type : 2
+   -
+     name : FEN_Fiche_Contestation
+     identifier : 0x43aed58c056ac805
+     internal_properties : BwAAAAcAAADYtoCcK1DYg098Q/KMNK9aTB9LgzMCDRNCjhjFT6RwqFTaC00s0TtiLBONayulXVO9RQ==
+     physical_name : .\FEN_Fiche_Contestation.wdw
+     type : 2
+   -
+     name : FI_Mission_Etat
+     identifier : 0x43aebdc40343e1cb
+     internal_properties : BwAAAAcAAAD9WdXJ9qMLFCIfygXtAIFtdWYQ0NIZLyZ2pTtCfLffMccF5H3HREABj7YgmBjIsCDoaA==
+     physical_name : .\FI_Mission_Etat.wdw
+     type : 8
+   -
+     name : FEN_Alerte_Mission
+     identifier : 0x43aeba350336fbcf
+     internal_properties : BwAAAAcAAAC3k5+DIB0VFiAB3RyhvzcRFXR8NIivEptSmlVtQcJIuAjYGWLFRq8HgbginmaaZlqiog==
+     physical_name : .\FEN_Alerte_Mission.wdw
+     type : 2
+   -
+     name : FEN_Modifier_MotdePasse
+     identifier : 0x43aeb5190207042d
+     internal_properties : BwAAAAcAAAB3019DYN1VVmBBGCzu/iKBWx4agspBBlN2AeiVFQ6EZKgUH2WXa37HQfji3qZaJppi4g==
+     physical_name : .\FEN_Modifier_MotdePasse.wdw
+     type : 2
+   -
+     name : FI_DetailMission
+     identifier : 0x43b0bf840347b8f4
+     internal_properties : BwAAAAcAAADduTXp1oOrtAIxeOkRqLCGg9wuTugJgeSIHn1C8hENG5kX39l/RGCrb9bAOPjokADISA==
+     physical_name : .\FI_DetailMission.wdw
+     type : 8
+  other_elements : []
+  analysis : .\Etat Missions.ana\Etat Missions.wda
+  net_assemblies : []
+  uwp_api : []
+  external_components : []
+  internal_components : []
+ data_directory : <RepExeOuRepDonneesCommun>
+ common_generation_directory : true
+ languages :
+  - fr-FR
+ rad_options :
+  internal_properties : BwAAAAcAAABflR2i8EcXLPYoMcOVlglhr/Ryihb2dHIqXg2ScQegJn0e2Uws+QiGMFi2PwiX6Id7Hga/jHL7cVvzruzM6Q5rzZUNYSKaG73GLwytSdIlTezHs5CeOQ==
+ code_elements :
+  type_code : 0
+  p_codes :
+   -
+     code : |1+
+      gnIDInspecteur est un entier sur 8 octet = 0
+      gbAdministrateur est booléen = faux
+      gsNomPrenom est une chaine = ""
+      
+      tabEtatSuivi est un tableau de chaines = ["Encours de réalisation","Sous-revu du principal","Sous-modification du principal","Sous-validation du principal","Sous-revu du chef de service","Sous-modification du chef de service","Sous-validation du chef de service","Sous-revu du chef de division","Sous-modification du chef de division","Sous-validation du chef de division","Validée"]
+      
+      PG_Creer_Etats()
+      
+      
+     type : 196608
+   -
+     type : 196627
+     enabled : false
+  orphans :
+   -
+     name : Exécutable Windows 32 bits
+     identifier : 0x43addd0600ef3e5f
+     code_elements :
+      type_code : 159
+      p_codes : []
+ code_parameters :
+  internal_properties : BwAAAAcAAAA6ih3UbgNXHwTtiPSFUEj+2fi/m7v4QV2rqidAupM=
+rad :
+ internal_properties : BwAAAAcAAABhIL0UXeZmxDJxY3Xy0Q==
+project_explorer :
+ explorer_type : project
+resources :
+ string_res :
+  identifier : 0x0
+  internal_properties : BwAAAAcAAAAnMYFQ1bL/vz9ehh7L22SNNSlIzGTOI8h5F/WtgDNP
+custom_note :
+ internal_properties : BwAAAAcAAAAd98VSJfHHqE3P0QHwrwdhn7ig8dWBR6valpUTgnAMTVXiDg==

@@ -1,0 +1,3 @@
+//MO005-006.TXT ANA00005 TO ANA00006
+SuiviMission		NFI		nouveau fichier
+Contrainte_Mission_SuiviMission		NWL	Mission (IDMission) et SuiviMission (IDMission)	Nouvelle liaison entre les fichiers Mission (IDMission) et SuiviMission (IDMission)

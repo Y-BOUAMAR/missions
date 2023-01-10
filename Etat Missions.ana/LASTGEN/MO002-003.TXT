@@ -1,0 +1,4 @@
+//MO002-003.TXT ANA00002 TO ANA00003
+Notification		TAR	64	nouvelle taille enregistrement : 64
+Notification	IDMission	RUB+		IDMission est une nouvelle clé
+Contrainte_Mission_Notification		NWL	Mission (IDMission) et Notification (IDMission)	Nouvelle liaison entre les fichiers Mission (IDMission) et Notification (IDMission)

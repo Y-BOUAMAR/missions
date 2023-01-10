@@ -1,0 +1,5 @@
+//MO000-001.TXT ANA00000 TO ANA00001
+Mission		NFI		nouveau fichier
+EtatMission		NFI		nouveau fichier
+Notification		NFI		nouveau fichier
+Contrainte_EtatMission_Mission		NWL	EtatMission (IDEtatMission) et Mission (IDEtatMission)	Nouvelle liaison entre les fichiers EtatMission (IDEtatMission) et Mission (IDEtatMission)

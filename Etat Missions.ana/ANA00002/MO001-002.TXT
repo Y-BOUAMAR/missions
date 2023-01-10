@@ -1,0 +1,10 @@
+//MO001-002.TXT ANA00001 TO ANA00002
+Mission		TAR	638	nouvelle taille enregistrement : 638
+Mission	NumAffilie	CLEN*		la rubrique NumAffilie est maintenant une clé
+Mission	ChefDivision	RUB-		la rubrique ChefDivision est supprimée
+Mission	InspecteurPrincipal	RUB-		la rubrique InspecteurPrincipal est supprimée
+Mission	Inspecteur	RUB-		la rubrique Inspecteur est supprimée
+Inspecteur		NFI		nouveau fichier
+EquipeMission		NFI		nouveau fichier
+Contrainte_Mission_EquipeMission		NWL	Mission (IDMission) et EquipeMission (IDMission)	Nouvelle liaison entre les fichiers Mission (IDMission) et EquipeMission (IDMission)
+Contrainte_Inspecteur_EquipeMission		NWL	Inspecteur (IDInspecteur) et EquipeMission (IDInspecteur)	Nouvelle liaison entre les fichiers Inspecteur (IDInspecteur) et EquipeMission (IDInspecteur)

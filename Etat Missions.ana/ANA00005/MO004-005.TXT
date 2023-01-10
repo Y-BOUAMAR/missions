@@ -1,0 +1,3 @@
+//MO004-005.TXT ANA00004 TO ANA00005
+ChefRedressement		NFI		nouveau fichier
+Contrainte_Mission_ChefRedressement		NWL	Mission (IDMission) et ChefRedressement (IDMission)	Nouvelle liaison entre les fichiers Mission (IDMission) et ChefRedressement (IDMission)
